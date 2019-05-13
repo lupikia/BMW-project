@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="ea2caa7c-fea5-45a6-9ab8-332a6816472c" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:58167/Replication.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="Replication.xsd" MetadataType="Schema" ID="9f08f592-4476-40c4-81ca-31180cd23e21" SourceId="1" SourceUrl="http://localhost:58167/Replication.svc?xsd=xsd0" />
+    <MetadataFile FileName="Replication1.xsd" MetadataType="Schema" ID="c72b91ad-e350-4670-8c05-07a9723c02fa" SourceId="1" SourceUrl="http://localhost:58167/Replication.svc?xsd=xsd2" />
+    <MetadataFile FileName="Replication.disco" MetadataType="Disco" ID="527738df-adc7-4cc1-84eb-ae140ab7c505" SourceId="1" SourceUrl="http://localhost:58167/Replication.svc?disco" />
+    <MetadataFile FileName="Replication.wsdl" MetadataType="Wsdl" ID="ea393e6f-5d84-4418-8df7-d9143be2489e" SourceId="1" SourceUrl="http://localhost:58167/Replication.svc?wsdl" />
+    <MetadataFile FileName="Replication2.xsd" MetadataType="Schema" ID="f2b424d6-c811-473d-b01c-0088f2a95715" SourceId="1" SourceUrl="http://localhost:58167/Replication.svc?xsd=xsd1" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
